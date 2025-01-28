@@ -1,3 +1,18 @@
+/*1. Sistema de Funcionários
+Enunciado:
+Implemente um sistema de gerenciamento de funcionários:
+1. Crie uma classe abstrata chamada Funcionario. Ela deve possuir:
+○ Propriedades protegidas (nome e salario) para representar o
+nome e salário do funcionário.
+○ Um método abstrato chamado calcularBonus().
+2. Crie duas classes que herdam de Funcionario:
+○ Gerente, cujo bônus é 20% do salário.
+○ Desenvolvedor, cujo bônus é 10% do salário.
+3. Adicione um método público mostrarDetalhes() que exiba o nome,
+salário e bônus do funcionário.
+4. Crie instâncias de ambas as classes e demonstre o uso do
+polimorfismo chamando calcularBonus() para cada funcionário.*/
+
 // Classe abstrata Funcionario
 class Funcionario {
 constructor(nome, salario) {

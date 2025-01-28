@@ -1,4 +1,16 @@
-
+/*2. Sistema de Pagamento
+Enunciado:
+Desenvolva um sistema de pagamento:
+1. Crie uma classe abstrata chamada Pagamento.
+○ Propriedades protegidas valor e descricao.
+○ Método abstrato calcularTaxa().
+2. Crie duas classes que herdam de Pagamento:
+○ CartaoCredito, com uma taxa de 5%.
+○ Boleto, com uma taxa de 2%.
+3. Adicione um método exibirDetalhes() para mostrar o valor final
+após a taxa.
+4. Crie instâncias de ambas as classes e use polimorfismo para
+calcular a taxa.*/
 
 class Pagamento {
     constructor(valor, descricao){

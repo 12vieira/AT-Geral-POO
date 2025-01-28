@@ -1,4 +1,15 @@
-
+/*5. Sistema de Animais
+Enunciado:
+Implemente um sistema que represente diferentes tipos de animais:
+1. Crie uma classe abstrata Animal com:
+○ Propriedades protegidas nome e especie.
+○ Um método abstrato emitirSom().
+2. Crie duas subclasses:
+○ Cachorro, que emite o som "Latido".
+○ Gato, que emite o som "Miau".
+3. Adicione um método descricao() para mostrar o nome, espécie e som
+do animal.
+4. Use polimorfismo para exibir a descrição de diferentes animais.*/
 
 class Animal {
     constructor(nome, especie){

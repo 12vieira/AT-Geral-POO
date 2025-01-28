@@ -1,4 +1,16 @@
-
+/*4. Sistema de Produtos
+Enunciado:
+Crie um sistema para gerenciar diferentes tipos de produtos:
+1. Crie uma classe abstrata chamada Produto com:
+○ Propriedades protegidas nome e preco.
+○ Um método abstrato calcularDesconto().
+2. Crie duas subclasses:
+○ Eletronico, com desconto de 10% no preço.
+○ Alimento, com desconto de 5% no preço.
+3. Adicione um método exibirDetalhes() para mostrar o nome, preço
+original e preço com desconto.
+4. Demonstre o uso de herança e polimorfismo ao criar instâncias das
+subclasses e exibir as informações de cada produto.*/
 
 class Produto {
     constructor(nome, preco){
